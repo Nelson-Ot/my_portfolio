@@ -26,7 +26,7 @@ import about04 from '../assets/about04.png';
 import profile from '../assets/Nelson.png';
 // import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
-import logo from '../assets/logo_nelson.png';
+import logo from '../assets/logos.png';
 // import logo from '../assets/logo.png';
 
 import adidas from '../assets/adidas.png';
