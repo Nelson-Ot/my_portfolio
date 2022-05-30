@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import './Navbar.scss';
 
-import { HiMenuAlt4, Hix } from 'react-icons/hi';
+import { HiMenuAlt4, HiX } from 'react-icons/hi';
 
 import { motion } from 'framer-motion';
 
@@ -10,7 +10,7 @@ import { images } from '../../constants';
 
 
 const Navbar = () => {
-  const [toggle, settoggle] = useState(false);
+  const [toggle, setToggle] = useState(false);
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
@@ -36,13 +36,15 @@ const Navbar = () => {
                  transition={{ duration: 0.85, ease: "easeOut" }}
                 >
                   <HiX onClick={() => setToggle(false)}  />
+                <ul>
                   {['Home', 'About', 'work', 'skills', 'Contact'].map((item, index) => (
                   <li key={item}>
                     
-                      <a href={`#$item`} onClick={() => setToggle(false)}>{item}</a>
+                      <a href={`#{$item}`} onClick={() => setToggle(false)}>{item}</a>
             
-          </li>
-))}
+                  </li>
+          ))}
+          </ul>
                 </motion.div>
               )
             }
