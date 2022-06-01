@@ -101,8 +101,8 @@
      margin-left: 1rem;
 
      div{
-         width: 100px;
-         height: 100px;
+         width: 70px;
+         height: 70px;
          border-radius: 50%;
          background: var(--white-color);
          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -113,39 +113,39 @@
          }
      }
      div:nth-child(1){
-         width: 100px;
-         height: 100px;
+         width: 70px;
+         height: 70px;
 
      }
      div:nth-child(2){
          margin: 1.75rem;
-        width: 50px;
-        height: 50px;
+        width: 150px;
+        height: 150px;
         
     }
     div:nth-child(3){
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         
     }
-    div:nth-child(4){
-        margin: 1.75rem;
-        width: 50px;
-        height: 50px;
+    // div:nth-child(4){
+    //     margin: 1.75rem;
+    //     width: 50px;
+    //     height: 50px;
         
-    }
-    div:nth-child(5){
-        width: 100px;
-        height: 100px;
+    // }
+    // div:nth-child(5){
+    //     width: 100px;
+    //     height: 100px;
         
-    }
-    div:nth-child(6){
-        margin: 1.75rem;
-        width: 50px;
-        height: 50px;
+    // }
+    // div:nth-child(6){
+    //     margin: 1.75rem;
+    //     width: 50px;
+    //     height: 50px;
         
-    }
-    @media  screen and (max-width: 2000px){
+    // }
+    @media  screen and (min-width: 2000px){
         div:nth-child(1){
             width: 300px;
             height: 300px;
@@ -162,23 +162,23 @@
            height: 300px;
            
        }
-       div:nth-child(4){
-           margin: 1.75rem;
-           width: 100px;
-           height: 100px;
+    //    div:nth-child(4){
+    //        margin: 1.75rem;
+    //        width: 100px;
+    //        height: 100px;
            
-       }
-       div:nth-child(5){
-           width: 300px;
-           height: 300px;
+    //    }
+    //    div:nth-child(5){
+    //        width: 300px;
+    //        height: 300px;
            
-       }
-       div:nth-child(6){
-           margin: 1.75rem;
-           width: 100px;
-           height: 100px;
+    //    }
+    //    div:nth-child(6){
+    //        margin: 1.75rem;
+    //        width: 100px;
+    //        height: 100px;
            
-       }
+    //    }
     
 
     }
