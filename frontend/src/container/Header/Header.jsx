@@ -45,7 +45,7 @@ const Header = () => {
             </motion.div>
             <motion.div whileInView={{ opacity: [0, 1]}}
             transition={{duration: 0.5, delayChildren: 0.5 }} className="app__header-img">
-                <img src={images.profile} alt="header" /> 
+                <img src={images.nelson} alt="header" /> 
                 <motion.img whileInView={{scale: [0, 1] }}transition= {{duration: 1, ease: 'easeInOut'}} src={images.circle} alt="profile picture" className="overlay_circle">
 
                 </motion.img>
